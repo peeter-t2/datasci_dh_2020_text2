@@ -629,7 +629,7 @@ Väga paljud sagedastest mitte-stopsõnadest on tegelaste nimed. Võtame ühe te
 
 # Kodutöö
 
-Siin on mõned harjutused tehtu kinnistamiseks. Proovi ära teha vähemalt 4 7-st ülesandest.
+Siin on mõned harjutused tehtu kinnistamiseks. Proovi ära teha vähemalt 4 7-st ülesandest. Kirjuta vastused siiasamma koodijuppide vahele ja esita fail oma nimega moodle-i kaudu. Enne saatmist võiks testida, et kui R kinni panna ja käivitada kood algusest lõpuni, siis kõik töötab.
 
 
 1. Vali välja üks teos tänasest komplektist. Loe see fail sisse ja nummerda peatükid.
@@ -670,7 +670,7 @@ Siin on mõned harjutused tehtu kinnistamiseks. Proovi ära teha vähemalt 4 7-s
 ```
 
 
-5. Otsi kolme terminit regulaaravaldiste abil nii, et eri käändevormid ja tuletised satuksid samale kujule. Kuva nende asukohad tekstis.
+5. Kasuta str_detect() paindlikku otsingut ja regulaaravaldisi, et otsida kolme termini eri vorme. Kuva nende asukohad tekstis.
 
 ```{r}
 
@@ -680,7 +680,7 @@ Siin on mõned harjutused tehtu kinnistamiseks. Proovi ära teha vähemalt 4 7-s
 ```
 
 
-6. Loe kokku vastete sagedused tekstis.
+6. Arvuta otsingusõnade sagedused igas tekstis (liida eri vormide sagedused kokku). Kuva tulemused.
 
 ```{r}
 
@@ -689,7 +689,7 @@ Siin on mõned harjutused tehtu kinnistamiseks. Proovi ära teha vähemalt 4 7-s
 ```
 
 
-7. Võta kokku 10 kõige sagedasemat sõna ning esita nende sagedused kolmes vabalt valitud teoses.
+7. Võta kokku 10 kõige sagedasemat sõna kõigi tekstide peale ning esita nende sagedused kolmes vabalt valitud teoses. inner_join() - käsk.
 
 ```{r}
 
@@ -697,5 +697,6 @@ Siin on mõned harjutused tehtu kinnistamiseks. Proovi ära teha vähemalt 4 7-s
 
 
 ```
+
 
 
