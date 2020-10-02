@@ -65,7 +65,8 @@ Nummerdame peatükid ära.
 
 texts <- texts %>% 
   group_by(filename) %>% 
-  mutate(chapter=row_number())
+  mutate(chapter=row_number()) %>% 
+  ungroup() # et edasine filtreerimine ei oleks häiritud, võtame siin grupid ära uuesti pärast peatükinumbrite määramist.
 
 ```
 
