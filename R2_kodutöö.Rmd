@@ -1,0 +1,85 @@
+---
+title: "Kodutöö põhi"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+library(tidyverse)
+library(tidytext)
+```
+
+
+# Kodutöö
+
+Siin on mõned harjutused tehtu kinnistamiseks. Proovi ära teha vähemalt 4 7-st ülesandest. Kirjuta vastused siiasamma koodijuppide vahele ja esita fail oma nimega moodle-i kaudu. Enne saatmist võiks testida, et kui R kinni panna ja käivitada kood algusest lõpuni, siis kõik töötab.
+
+
+1. Vali välja üks teos tänasest komplektist. Loe see fail sisse ja nummerda peatükid.
+
+```{r}
+
+
+
+
+```
+
+
+2. Tee tekstiväljadest sõnaväljad, salvesta iga sõna juures asukohainfo.
+
+```{r}
+
+
+
+
+```
+
+
+3. Vali välja kolm sõna ning kuva nende asukohad teoses
+
+```{r}
+
+
+
+```
+
+
+4. Arvuta välja nende kolme sõna sagedused igas peatükis.
+
+```{r}
+
+
+
+```
+
+
+5. Otsi kolme terminit regulaaravaldiste abil nii, et eri käändevormid ja tuletised satuksid samale kujule. Kuva nende asukohad tekstis.
+
+```{r}
+
+
+
+
+```
+
+
+6. Loe kokku vastete sagedused tekstis.
+
+```{r}
+
+
+
+```
+
+
+7. Võta kokku 10 kõige sagedasemat sõna ning esita nende sagedused kolmes vabalt valitud teoses.
+
+```{r}
+
+
+
+
+```
+
+
